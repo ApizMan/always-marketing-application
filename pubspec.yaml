@@ -1,0 +1,43 @@
+name: always_marketing_application
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+    
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  flutter_localized_locales: ^2.0.5
+  flutter_dotenv: ^5.1.0
+  flutter_form_bloc:
+    git:
+      url: https://github.com/Cavin6080/form_bloc.git
+      path: packages/flutter_form_bloc
+  get: ^4.6.6
+  local_auth: ^2.2.0
+  shared_preferences: ^2.2.3
+  path_provider: ^2.0.9
+  google_ml_kit: ^0.13.0
+  get_it: ^7.7.0
+  flutter_scale_tap: ^1.0.5
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  intl_translation: ^0.20.0
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.11
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icons/
